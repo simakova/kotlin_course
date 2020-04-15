@@ -1,8 +1,3 @@
-import kotlin.Float
-
-class Run {
-}
-
 fun main(args: Array<String>) {
     var a:Any?=null;
     println(a);
