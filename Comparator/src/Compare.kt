@@ -7,6 +7,4 @@ fun main(args:Array<String>){
     var secondNum = second!!.toDouble()
     var boolVar = firstNum>secondNum
     println(boolVar)
-
-
 }
