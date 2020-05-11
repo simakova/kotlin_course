@@ -6,7 +6,7 @@ fun main(args: Array<String>){
             |a - XV в
             |b - XX в
             |c - XIX в
-            |d - в глубокой древности)""".trimMargin())
+            |d - в глубокой древности""".trimMargin())
     var answer1 = readLine()
     when(answer1.toString()){
         "a" -> {println("""Неверный ответ. Правильный ответ \"d\".
