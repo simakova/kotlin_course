@@ -2,7 +2,9 @@
 *false = год високосный*/
 
 fun main (args:Array<String>){
-    if(!division(2020)) println("Год високосный") else println("Год невисокосный");
+    print("Введите год: ");
+    var year = readLine();
+    if(!division(year!!.toInt())) println("Год високосный") else println("Год невисокосный");
 }
 
 fun division(num:Int):Boolean{
