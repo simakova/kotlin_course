@@ -7,7 +7,7 @@ class Aircraft (){
 }
 
 fun main() {
-    val airplane: Aircraft = Aircraft()
+    val airplane = Aircraft()
 
     print(airplane.gasMileage100)
 }
