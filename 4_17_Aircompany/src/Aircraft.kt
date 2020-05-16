@@ -1,4 +1,4 @@
-class Aircraft (){
+class Aircraft {
     var id: Int = 1
     var maxRange:Double = 500.0
     var capacity:Double = 70.0
