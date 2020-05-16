@@ -1,9 +1,8 @@
-class Boing747:Aircraft{
-    var passangeers: Int? = null
+class Boing747(id: Int, maxRange: Double, capacity: Double, pass: Int) : Aircraft(id, maxRange, capacity) {
+    var passengers: Int = pass
 
-    constructor(id: Int, maxRange:Double, capacity:Double, pass:Int) : super(id, maxRange, capacity){
-
-        passangeers = pass
-
+    override fun display() {
+        super.display()
+        println("Passengers capacity: $passengers")
     }
 }
